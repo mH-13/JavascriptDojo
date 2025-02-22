@@ -1,0 +1,23 @@
+{
+  "name": "javascriptdojo",
+  "version": "1.0.0",
+  "description": "A comprehensive guide to mastering JavaScript fundamentals.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mH-13/JavascriptDojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mH-13/JavascriptDojo/issues"
+  },
+  "homepage": "https://github.com/mH-13/JavascriptDojo#readme"
+}
