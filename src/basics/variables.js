@@ -75,3 +75,18 @@ let name = "Alice";
 let isStudent = true;
 let score = null;
 let x; // undefined
+
+
+// Variables and Data Types
+let name1 = "John";         // String: user’s name
+const age1 = 25;            // Number: fixed value
+var isStudent1 = true;      // Boolean: true/false flag
+let person1 = {             // Object: structured data
+  name: "John",
+  age: 25
+};
+let numbers1 = [1, 2, 3];   // Array: list of items
+
+console.log(name1);         // "John"
+console.log(person1.age);   // 25
+console.log(numbers1[0]);   // 1
