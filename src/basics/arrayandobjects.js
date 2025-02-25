@@ -120,16 +120,16 @@ user.age = 26;
 
 
 // Array declaration
-const fruits = ["apple", "banana", "mango"];
+const fruits2 = ["apple", "banana", "mango"];
 
 // Common methods
-fruits.push("orange"); // Add to end
-fruits.pop(); // Remove from end
-fruits.map(fruit => fruit.toUpperCase()); // ["APPLE", "BANANA", "MANGO"]
+fruits2.push("orange"); // Add to end
+fruits2.pop(); // Remove from end
+fruits2.map(fruit => fruit.toUpperCase()); // ["APPLE", "BANANA", "MANGO"]
 
 // Filtering
-const numbers = [1, 2, 3, 4];
-const evenNumbers = numbers.filter(num => num % 2 === 0); // [2, 4]
+const numbers2 = [1, 2, 3, 4];
+const evenNumbers = numbers2.filter(num => num % 2 === 0); // [2, 4]
 
 
 // # Arrays
