@@ -90,3 +90,49 @@ let sum = numbers.reduce((acc, n) => acc + n, 0);  // 10
 let person = { name: "John", age: 25 };
 console.log(person.name);  // "John"
 console.log(Object.keys(person));  // ["name", "age"]
+
+
+
+
+// Object literal
+const user = {
+  name: "Alice",
+  age: 25,
+  isAdmin: false,
+  greet() {
+    console.log(`Hello, ${this.name}!`);
+  }
+};
+
+console.log(user.name); // "Alice"
+user.greet(); // "Hello, Alice!"
+
+// Modify properties
+user.age = 26;
+
+
+// # Objects
+// - Store **key-value pairs**.
+// - Use `this` to access object properties internally.
+// - Methods: Functions inside objects.
+
+
+
+
+// Array declaration
+const fruits = ["apple", "banana", "mango"];
+
+// Common methods
+fruits.push("orange"); // Add to end
+fruits.pop(); // Remove from end
+fruits.map(fruit => fruit.toUpperCase()); // ["APPLE", "BANANA", "MANGO"]
+
+// Filtering
+const numbers = [1, 2, 3, 4];
+const evenNumbers = numbers.filter(num => num % 2 === 0); // [2, 4]
+
+
+// # Arrays
+// - **Methods**: `push()`, `pop()`, `map()`, `filter()`, `reduce()`.
+// - `map()`: Transform elements.
+// - `filter()`: Return subset based on condition.
