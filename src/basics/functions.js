@@ -104,10 +104,10 @@ const greet = function(name) {
 // Arrow Function
 const greet = (name) => `Hello, ${name}!`; // concise syntax for writing function expressions. 
 
-// Anonymous Function
-function() {
+// Anonymous Function assigned to a variable
+const anonymousGreet = function() {
   return "Hello!";
-} // a function without a name. 
+}; // a function without a name. 
 
 // Immediately Invoked Function Expression (IIFE) 
 (function() {
