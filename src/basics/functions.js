@@ -173,22 +173,5 @@ function greet(name) {
 //closure
 // A closure is a function that has access to its own scope, the outer function's scope, and the global scope.
 // A closure is created when an inner function is returned from an outer function.
-// Closures can be used to create private variables and functions.
-// Closures can be used to create factory functions.
-// Closures can be used to create partial functions.
-// Closures can be used to create memoized functions.
-// Closures can be used to create curried functions.
-// Closures can be used to create event listeners.
-// Closures can be used to create asynchronous code.
-// Closures can be used to create higher-order functions.
-// Closures can be used to create iterators and generators.
-// Closures can be used to create modules.
-// Closures can be used to create callbacks and promises.
-// Closures can be used to create recursion.
-// Closures can be used to create memoization.
-// Closures can be used to create decorators.
-// Closures can be used to create function composition.
-// Closures can be used to create function currying.
-// Closures can be used to create function chaining.
-// Closures can be used to create function memoization.
+// Closures can be used to createe private variables and functions., factory functions, partial functions. memoized functions. curried functions. event listeners. asynchronous code. higher-order functions. iterators and generators. modules. callbacks and promises. recursion. memoization. decorators. function composition. function currying. function chaining. function memoization.
 
