@@ -83,3 +83,112 @@ console.log(sumAll(1, 2, 3, 4));  // 10
 // Use Cases:
 // Reusable logic (e.g., calculating totals).
 // Handling button clicks in your project.
+// Fetching data from an API.
+// Event listeners.
+// Callback functions.
+
+
+
+// more about functions advanced functions
+
+// Function Declaration
+function greet(name) {
+  return `Hello, ${name}!`;
+} // hoisted to the top of the scope and can be called before the declaration. 
+
+// Function Expression
+const greet = function(name) {
+  return `Hello, ${name}!`;
+}; // not hoisted and must be declared before calling.  
+
+// Arrow Function
+const greet = (name) => `Hello, ${name}!`; // concise syntax for writing function expressions. 
+
+// Anonymous Function
+function() {
+  return "Hello!";
+} // a function without a name. 
+
+// Immediately Invoked Function Expression (IIFE) 
+(function() {
+  console.log("Hello!");
+})(); // runs immediately after it's defined.
+
+// Generator Function
+function* greet() {
+  yield "Hello";
+  yield "World";
+} // returns an iterator object.
+
+// Async Function
+async function greet() {
+  return "Hello";
+} // returns a promise.
+
+// Async Arrow Function
+const greet = async () => "Hello"; // returns a promise.
+
+// Default Parameters
+function greet(name = "World") {
+  return `Hello, ${name}!`;
+} // sets default values for function parameters.
+
+// Rest Parameters
+function sum(...numbers) {
+  return numbers.reduce((acc, n) => acc + n, 0);
+} // accepts any number of arguments as an array.
+
+// Spread Operator
+const numbers = [1, 2, 3];
+console.log(sum(...numbers)); // 6
+// spreads an array into individual elements.
+
+// Higher-Order Function
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+function greetUser(greet, name) {
+  return greet(name);
+} // a function that takes another function as an argument.
+
+// Callback Function
+function greet(name, callback) {
+  return callback(name);
+}
+
+function sayHello(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet("Alice", sayHello)); // "Hello, Alice!"
+// a function that's passed as an argument to another function.
+
+// Return Statement
+function greet(name) {
+  return `Hello, ${name}!`;
+} // specifies the value to be returned by the function.
+
+
+//closure
+// A closure is a function that has access to its own scope, the outer function's scope, and the global scope.
+// A closure is created when an inner function is returned from an outer function.
+// Closures can be used to create private variables and functions.
+// Closures can be used to create factory functions.
+// Closures can be used to create partial functions.
+// Closures can be used to create memoized functions.
+// Closures can be used to create curried functions.
+// Closures can be used to create event listeners.
+// Closures can be used to create asynchronous code.
+// Closures can be used to create higher-order functions.
+// Closures can be used to create iterators and generators.
+// Closures can be used to create modules.
+// Closures can be used to create callbacks and promises.
+// Closures can be used to create recursion.
+// Closures can be used to create memoization.
+// Closures can be used to create decorators.
+// Closures can be used to create function composition.
+// Closures can be used to create function currying.
+// Closures can be used to create function chaining.
+// Closures can be used to create function memoization.
+
