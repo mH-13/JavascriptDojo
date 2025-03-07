@@ -8,8 +8,7 @@
  * @example
  * // returns 5
  * add(2, 3);
- *
- * @example
+ * 
  * // returns 10
  * add(7, 3);
  *
@@ -23,12 +22,12 @@ function add(a, b) {
 }
 
 
-// Function Declaration
+// Declaration
 function greet(name) {
   return `Hello, ${name}!`;
 }
 
-// Function Expression (Arrow Function)
+// Expression (Arrow Function)
 const add = (a, b) => a + b;
 
 console.log(greet("Bob")); // "Hello, Bob!"

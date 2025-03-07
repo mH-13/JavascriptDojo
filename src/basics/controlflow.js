@@ -172,8 +172,6 @@ while (c > 0) {
   c--;
 }
 
-
-
 let fruits = ["apple", "banana"];
 for (let fruit of fruits) {
   console.log(fruit);     // "apple", "banana"
