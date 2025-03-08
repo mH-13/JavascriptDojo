@@ -11,9 +11,9 @@
 //   - **Syntax**: `array.indexOf(searchElement, fromIndex)`
 //   - **Example**:
   // ```javascript
-  const fruits = ['apple', 'banana', 'mango', 'orange'];
-  console.log(fruits.indexOf('mango')); // 2
-  console.log(fruits.indexOf('grape')); // -1
+  const fruitsArray = ['apple', 'banana', 'mango', 'orange'];
+  console.log(fruitsArray.indexOf('mango')); // 2
+  console.log(fruitsArray.indexOf('grape')); // -1
   // ```
 
 // 2. **`lastIndexOf`**:
@@ -31,8 +31,8 @@
 //   - **Syntax**: `array.find(callback(element[, index[, array]])[, thisArg])`
 //   - **Example**:
   // ```javascript
-  const numbers = [4, 9, 16, 25];
-  const found = numbers.find(element => element > 10);
+  const numbersArray = [4, 9, 16, 25];
+  const found = numbersArray.find(element => element > 10);
   console.log(found); // 16
   // ```
 
