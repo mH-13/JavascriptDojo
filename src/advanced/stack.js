@@ -29,9 +29,8 @@ class Stack {
     return this.items.length === 0;
   }
 
-  // Return the size of the stack
   size() {
-    return this.items.length;
+    return this.items.length; // Return the size of the stack
   }
 
   // Empty the stack
@@ -50,3 +49,6 @@ console.log(stack.size()); // 1
 console.log(stack.isEmpty()); // false
 stack.clear();
 console.log(stack.isEmpty()); // true
+
+
+//
