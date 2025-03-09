@@ -3,13 +3,11 @@ class Stack {
     this.items = [];
   }
 
-  // Add an element to the stack
-  push(element) {
+  push(element) { // Add an element to the top of the stack
     this.items.push(element);
   }
 
-  // Remove and return the top element from the stack
-  pop() {
+  pop() { // Remove and return the top element from the stack
     if (this.isEmpty()) {
       return "Stack is empty";
     }
