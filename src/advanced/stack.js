@@ -16,16 +16,14 @@ class Stack {
     return this.items.pop();
   }
 
-  // Return the top element without removing it
-  peek() {
+  peek() { // Return the top element wihtout removing it
     if (this.isEmpty()) {
       return "Stack is empty";
     }
     return this.items[this.items.length - 1];
   }
 
-  // Check if the stack is empty
-  isEmpty() {
+  isEmpty() { // Check if the stack is empty
     return this.items.length === 0;
   }
 
@@ -33,9 +31,8 @@ class Stack {
     return this.items.length; // Return the size of the stack
   }
 
-  // Empty the stack
   clear() {
-    this.items = [];
+    this.items = []; // Reset the stack
   }
 }
 
